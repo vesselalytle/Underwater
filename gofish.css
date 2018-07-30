@@ -1,0 +1,248 @@
+
+body {
+	background-color:#3F2860;
+	color:#3F2860;
+	font-family : Verand, Arial, sans-serif;
+	}
+header {
+	
+	background-image: url(banner.jpg);
+	height: 189px;
+	background-repeat: no-repeat;
+	padding-left:1em; 
+	padding-right: 1em;
+	background-position: center;
+	}
+h1 {
+	padding-top:50px;
+	padding-left:2em;
+
+	}
+h2 {
+    padding-top:2px;
+    padding-left:2em;
+ 
+}
+h3 {
+	padding-top:2px;
+	padding-left:2em;
+
+	}
+.left{
+        float: left;
+        width: 600px;
+        }
+.right{
+        float: right;
+        
+        }
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    width: 10em;
+    padding-right: 1em;
+}
+input{
+    display: block;
+    margin-bottom: 2em;
+}
+textarea{
+    display: block;
+    margin-bottom: 2em;
+} 
+#mySubmit{
+    margin-left: 12em;
+}
+form{
+    padding: 3em;
+}
+#reserv{
+    margin-top: 11em;
+    font-weight: bold;
+}
+
+a:link {
+    color: #000080;
+}
+a:visited {
+    color: #ffa500;
+}
+a:hover {
+    color: #A26100; border: 3px inset #333333;
+	}
+nav{
+   margin-left: 160px;
+/*   text-align: center;*/
+   }
+nav a{
+    list-style-type: none;
+    text-decoration:none;
+    text-align: center;
+    font-weight: bold;
+    background-color: #3F2860;
+    color: #66ffff;
+    padding: 1em;
+
+}
+nav li{
+    display: inline;
+    margin-right: 2em;
+}
+.studio {
+	font-style: italic;
+	}
+footer {
+	text-align: center;
+	font-size: small;
+	font-style: italic;
+        background-image: url(footer.jpg);
+	background-color: #3F2860;
+	padding:1em;
+	}
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #3F2860;
+	min-width: 1200px;
+	max-width: 1480px;
+}
+ul{
+    list-style-type: none;
+    text-decoration:none;
+    
+}
+.pros{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    
+}
+.clear {
+	clear: both;
+        font-weight: bold;
+}
+main {
+        background-image: url(underwater_scene_by_qzr1.jpg);
+	background-color: #3F2860;
+	padding: 3em;
+	display: block;
+	margin-bottom: 3em;  
+        min-height: 35em;
+}
+#home{
+    padding-top: 2em;
+}
+.floatleft {
+	float: left;
+	margin-right: 4em;
+}
+*{
+	box-sizing:border-box;
+}
+
+    .menuItem{
+        font-weight: bold;
+        margin-top: 2em;
+    }
+header, main, nav, footer, section, article, figure, figcaption, aside {display:block;}
+
+#mobile {display:none;}
+#desktop {display: inline;}
+
+@media only screen and (max-width: 1024px){
+body{
+	padding: 0;
+	margin: 0;
+}
+#wrapper{
+	width: 100%;
+	min-width: 0;
+	margin: 0;
+	padding: 0;
+}
+header{
+	padding-top: 1px;
+}
+nav{
+	float: none;
+	width:auto;
+	padding-left: 2em;
+}
+nav a{
+	padding: 0.2em;
+	margin-left: 0.3em;
+	float: left;
+	width: 23%;
+}
+main{
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin: 0;
+	font: 90%;
+	clear: both;
+	}
+
+h2{
+	padding-left: 2em;
+	padding-right: 2em;
+}
+h3{
+	padding-left: 2em;
+	padding-right: 2em;
+}
+p{
+	padding-left: 2em;
+	padding-right: 2em;
+}
+dl{
+	padding-left: 2em;
+	padding-right: 2em;
+}
+main ul{
+	margin-left:2em;
+}
+.floatleft{
+	margin-left: 2em;
+	margin-bottom: 1em;
+}
+.clear{
+	padding-left: 2em;
+
+}
+}
+@media only screen and (max-width: 768px){
+
+h1{
+	font-size: 2em;
+	padding-top:0.25em;
+	padding-left: 1.5em;
+	width: 85%;
+	text-align: center;
+}
+nav a{
+	padding: 0.5em;
+	width: 45%;
+	float: left;
+	min-width: 6em;
+	margin-left: 0.5em;
+}
+main{
+	padding-top:0;
+}
+.floatleft{
+	float:none;
+	display:none;
+}
+
+footer{
+	padding:0.5em;
+	margin: 0;
+}
+#mobile{display:inline;}
+#desktop{display: none;}
+}
